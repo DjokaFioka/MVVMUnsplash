@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVM Unsplash</string>
+    <string name="images_could_not_be_loaded">Images could not be loaded</string>
+    <string name="retry">Retry</string>
+    <string name="no_results_found">No results found</string>
+    <string name="results_could_not_be_loaded">Results could not be loaded</string>
+    <string name="gallery">Gallery</string>
+    <string name="photo">Photo</string>
+</resources>
