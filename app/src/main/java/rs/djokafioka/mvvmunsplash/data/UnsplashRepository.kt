@@ -17,9 +17,9 @@ class UnsplashRepository @Inject constructor(private val unsplashApi: UnsplashAp
             //20 ce biti prosledjeno metodi load u UnsplashPagingSource.kt
             config = PagingConfig(
                 pageSize = 20,
-            maxSize = 100,
-            enablePlaceholders = false
+                maxSize = 100,
+                enablePlaceholders = false
             ),
-            pagingSourceFactory = {UnsplashPagingSource(unsplashApi, query)}
+            pagingSourceFactory = { UnsplashPagingSource(unsplashApi, query) }
         ).liveData //moze i flow
 }
